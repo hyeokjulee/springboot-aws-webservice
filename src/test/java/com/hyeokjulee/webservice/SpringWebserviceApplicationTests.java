@@ -1,4 +1,4 @@
-package com.hyeokjulee.springwebservice;
+package com.hyeokjulee.webservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
