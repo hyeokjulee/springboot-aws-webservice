@@ -1,12 +1,13 @@
 package com.hyeokjulee.webservice.domain.posts;
 
+import com.hyeokjulee.webservice.domain.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id
     @GeneratedValue
