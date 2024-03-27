@@ -1,4 +1,4 @@
-package com.hyeokjulee.webservice.domain;
+package com.hyeokjulee.webservice.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

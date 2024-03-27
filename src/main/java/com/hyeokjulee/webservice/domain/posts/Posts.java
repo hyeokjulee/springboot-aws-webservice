@@ -1,4 +1,4 @@
-package com.hyeokjulee.webservice.domain;
+package com.hyeokjulee.webservice.domain.posts;
 
 import jakarta.persistence.*;
 import lombok.*;
