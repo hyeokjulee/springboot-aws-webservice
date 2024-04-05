@@ -1,8 +1,8 @@
 drop table if exists posts cascade;
 drop sequence if exists posts_seq;
-create sequence posts_seq start with 1 increment by 50;
+
 create table posts(
-  id bigint not null,
+  id bigint not null AUTO_INCREMENT,
   title varchar(500) not null,
   content TEXT not null,
   author varchar(255),

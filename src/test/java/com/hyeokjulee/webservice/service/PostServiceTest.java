@@ -1,8 +1,8 @@
 package com.hyeokjulee.webservice.service;
 
-import com.hyeokjulee.webservice.domain.posts.Posts;
-import com.hyeokjulee.webservice.domain.posts.PostsRepository;
-import com.hyeokjulee.webservice.dto.posts.PostsSaveRequestDto;
+import com.hyeokjulee.webservice.domain.Posts;
+import com.hyeokjulee.webservice.domain.PostsRepository;
+import com.hyeokjulee.webservice.dto.PostsSaveRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

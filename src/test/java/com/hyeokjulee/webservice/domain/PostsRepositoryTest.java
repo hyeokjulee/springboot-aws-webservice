@@ -1,7 +1,5 @@
 package com.hyeokjulee.webservice.domain;
 
-import com.hyeokjulee.webservice.domain.posts.Posts;
-import com.hyeokjulee.webservice.domain.posts.PostsRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,6 +1,5 @@
-package com.hyeokjulee.webservice.domain.posts;
+package com.hyeokjulee.webservice.domain;
 
-import com.hyeokjulee.webservice.domain.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.*;
 

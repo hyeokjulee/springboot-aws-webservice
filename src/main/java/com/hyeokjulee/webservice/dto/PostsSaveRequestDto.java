@@ -1,6 +1,6 @@
-package com.hyeokjulee.webservice.dto.posts;
+package com.hyeokjulee.webservice.dto;
 
-import com.hyeokjulee.webservice.domain.posts.Posts;
+import com.hyeokjulee.webservice.domain.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
