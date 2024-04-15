@@ -7,6 +7,9 @@ spring:
     name: spring-webservice
   profiles:
     active: local # 기본 환경 선택
+    group:
+      set1: real-db
+      set2: real-db
 
 # local 환경
 ---
@@ -14,6 +17,8 @@ spring:
   config:
     activate:
       on-profile: local
+  datasource:
+    url: jdbc:h2:mem:test-db
   jpa:
     show-sql: true
     hibernate:
@@ -22,5 +27,20 @@ spring:
   h2:
     console:
       enabled: true
-  datasource:
-    url: jdbc:h2:mem:test-db
+
+# 운영 환경
+---
+spring:
+  config:
+    activate:
+      on-profile: set1
+server:
+  port: 8081
+
+---
+spring:
+  config:
+    activate:
+      on-profile: set2
+server:
+  port: 8082
