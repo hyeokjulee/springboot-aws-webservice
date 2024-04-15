@@ -10,6 +10,8 @@ spring:
     group:
       set1: real-db
       set2: real-db
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDBDialect
 
 # local 환경
 ---
